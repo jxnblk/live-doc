@@ -1,6 +1,6 @@
 {
   "name": "live-doc",
-  "version": "1.0.0-1",
+  "version": "1.0.0-2",
   "description": "Convert markdown to live React demos",
   "main": "index.js",
   "bin": {

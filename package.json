@@ -1,0 +1,36 @@
+{
+  "name": "live-md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "live-md": "./bin/live-md.js"
+  },
+  "scripts": {
+    "start": "./bin/live-md.js README.md",
+    "test": "ava"
+  },
+  "keywords": [],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "memory-fs": "^0.4.1",
+    "meow": "^3.7.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-live": "^1.7.0",
+    "react-markdown": "^2.5.0",
+    "rebass": "^1.0.0",
+    "update-notifier": "^2.2.0",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0"
+  }
+}

@@ -8,5 +8,4 @@ test('exports a function', t => {
 test('returns an html string', async t => {
   const a = await live('# Hello')
   t.is(typeof a, 'string')
-  console.log(a)
 })

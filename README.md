@@ -1,7 +1,7 @@
 
 # live-doc
 
-Convert markdown to live React demos
+Convert markdown to live React demos <http://jxnblk.com/live-doc>
 
 Built with:
 - [react-markdown][0]

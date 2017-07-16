@@ -1,13 +1,13 @@
 {
   "name": "live-doc",
-  "version": "1.0.0-7",
+  "version": "1.0.0-8",
   "description": "Convert markdown to live React demos",
   "main": "index.js",
   "bin": {
     "doc": "./bin/live-doc.js"
   },
   "scripts": {
-    "start": "doc README.md -d docs -c docs/config.js",
+    "start": "./bin/live-doc.js README.md -d docs -c docs/config.js",
     "test": "ava"
   },
   "keywords": [],

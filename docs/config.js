@@ -5,13 +5,12 @@ module.exports = {
   scope: {
     Heading
   },
-  // css: 'body{color:tomato}',
   meta: [
     { name: 'twitter:card', content: 'summary' },
     { name: 'twitter:site', content: '@jxnblk' },
     { name: 'twitter:title', content: 'Live Doc' },
     { name: 'twitter:description', content: 'Convert markdown to live React demos' },
-    // { name: 'twitter:image', content: 'Convert markdown to live React demos' },
+    { name: 'twitter:image', content: 'http://i.imgur.com/vqKCbnh.jpg' },
   ],
   script: `window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],

@@ -13,7 +13,7 @@ Built with: [react-markdown][0], [React Live][1], [Rebass][2], and [styled-compo
 ## Getting Started
 
 ```sh
-npm i live-doc
+npm i -g live-doc
 ```
 
 Convert a markdown file to a React app and save as `index.html`:
@@ -43,6 +43,29 @@ live-doc will convert the example into a live-editable example using [React Live
 
 In this example, the [Rebass][2] `Heading` component has been added to the scope in the `docs/config.js` file,
 making it available to the [React Live][1] preview.
+
+### React Live noInline Mode
+
+To enable the [`noInline` mode](https://github.com/FormidableLabs/react-live#liveprovider-)
+in React Live, use the `..jsx` language attribute at the beginning of a code block.
+
+```..jsx
+const Hello = () => <h1>Hello</h1>
+
+const App = () => (
+  <div>
+    <Hello />
+    <button
+      onClick={e => {
+        alert('Beep')
+      }}
+      children='Beep'
+    />
+  </div>
+)
+
+render(<App />)
+```
 
 
 ## CLI Options

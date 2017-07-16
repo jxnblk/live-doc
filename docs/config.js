@@ -11,6 +11,7 @@ module.exports = {
     { name: 'twitter:title', content: 'Live Doc' },
     { name: 'twitter:description', content: 'Convert markdown to live React demos' },
     { name: 'twitter:image', content: 'http://i.imgur.com/vqKCbnh.jpg' },
+    // { name: 'twitter:image', content: 'http://clipart-library.com/images/6cy5Gbazi.jpg' },
   ],
   script: `window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],

@@ -1,10 +1,9 @@
 const { Heading } = require('rebass')
 
 module.exports = {
-  title: 'Live MD',
+  title: 'Live Doc',
   scope: {
-    Heading,
-    foo: 'hello'
+    Heading
   },
   // css: 'body{color:tomato}',
 }

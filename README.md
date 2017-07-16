@@ -3,11 +3,11 @@
 
 Convert markdown to live React demos <http://jxnblk.com/live-doc>
 
-Built with:
-- [react-markdown][0]
-- [React Live][1]
-- [Rebass][2]
-- [styled-components][3]
+Built with: [react-markdown][0], [React Live][1], [Rebass][2], and [styled-components][3]
+
+<a class='twitter-share-button'
+  href='https://twitter.com/intent/tweet?text=Convert%20markdown%20to%20live%20React%20demos'>
+</a>
 
 
 ## Getting Started

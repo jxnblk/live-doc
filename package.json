@@ -1,13 +1,14 @@
 {
-  "name": "live-md",
-  "version": "1.0.0",
-  "description": "",
+  "name": "live-doc",
+  "version": "1.0.0-0",
+  "description": "Convert markdown to live React demos",
   "main": "index.js",
   "bin": {
-    "live-md": "./bin/live-md.js"
+    "doc": "./bin/live-doc.js"
   },
   "scripts": {
-    "start": "./bin/live-md.js README.md",
+    "docs": "./bin/live-doc.js README.md -d docs -c docs/config.js",
+    "start": "nodemon --exec 'npm run docs' ./lib/*",
     "test": "ava"
   },
   "keywords": [],
@@ -21,16 +22,19 @@
     "babel-preset-stage-0": "^6.24.1",
     "memory-fs": "^0.4.1",
     "meow": "^3.7.0",
+    "ora": "^1.3.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-live": "^1.7.0",
     "react-markdown": "^2.5.0",
     "rebass": "^1.0.0",
+    "styled-components": "^2.1.1",
     "update-notifier": "^2.2.0",
     "webpack": "^3.3.0",
     "webpack-dev-server": "^2.5.1"
   },
   "devDependencies": {
-    "ava": "^0.21.0"
+    "ava": "^0.21.0",
+    "nodemon": "^1.11.0"
   }
 }

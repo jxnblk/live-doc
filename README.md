@@ -1,4 +1,6 @@
 
+**No longer maintained** see https://mdxjs.com for a better alternative
+
 # live-doc
 
 Convert markdown to live React demos <http://jxnblk.com/live-doc>
